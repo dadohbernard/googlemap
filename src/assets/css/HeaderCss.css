@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    color: azure;
+    background-color: #ffffff;
+
+}
+
+.headerSticky{
+    position: fixed;
+    width: 100%;
+    display: block;
+}
+.web-name{
+    color:#000;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 5%;
+    align-items: center;
+    background: linear-gradient(to right, #63DFDC, #79D35F);
+}
+
+#icon {
+    padding: 5px 7px 3px 7px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+#icon svg {
+    color: #FFF;
+    height: 28px;
+    transition: all .3s ease;
+}
+
+#icon:hover {
+    background: #FFF;
+}
+
+#icon:hover svg {
+    color: #268d1d;
+}
+
+#checkbox,
+#icon {
+    display: block;
+}
+
+
+.link:hover {
+    text-decoration: underline;
+    background-color: black;
+}
+
+
+

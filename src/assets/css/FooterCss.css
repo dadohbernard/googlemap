@@ -1,0 +1,11 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 5%;
+    align-items: center;
+    background: linear-gradient(to right, #1197AF, #79D35F);
+    position: fixed; /* Make the footer fixed */
+    bottom: 0; /* Position it at the bottom */
+    width: 100%; /* Take up the full width */
+    height: 80px; /* Set the height */
+}
